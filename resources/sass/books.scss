@@ -109,3 +109,9 @@ html, body {
   }
 }
 
+.btn-edit-book {
+  @media all and (max-width: 601px) {
+    margin-bottom: 5px;
+  }
+}
+

@@ -23,8 +23,8 @@
             <td>{{ $book['Author'] }}</td>
             <td>{{ $book['Title'] }}</td>
             <td>
-              <a href="{{ route('admin.editBook', [ 'id' => $book['Id'] ]) }}" type="button" class="btn btn-primary btn-sm">Edit</a>
-              <a href="{{ route('admin.deleteBook', [ 'id' => $book['Id'] ]) }}" type="button" class="btn btn-danger btn-sm">Delete</a>
+              <a href="{{ route('admin.editBook', [ 'id' => $book['Id'] ]) }}" class="btn btn-primary btn-sm btn-edit-book">Edit</a>
+              <a href="{{ route('admin.deleteBook', [ 'id' => $book['Id'] ]) }}" class="btn btn-danger btn-sm">Delete</a>
             </td>
           </tr>
         @empty

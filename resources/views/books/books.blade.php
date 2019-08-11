@@ -22,7 +22,6 @@
             <td>
               <a
                 href="{{ route('books.book', [ 'id' => $book['Id'] ]) }}"
-                type="button"
                 class="btn btn-primary btn-sm"
               >View Details</a>
             </td>
