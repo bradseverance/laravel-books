@@ -17,6 +17,9 @@ html, body {
 
 .full-height {
   height: 100vh;
+  @media all and (max-width: 601px) {
+    height: unset;
+  }
 }
 
 .flex-center {
@@ -86,6 +89,9 @@ html, body {
 
 #book-img {
   max-width: 200px;
+  @media all and (max-width: 601px) {
+    margin-top: 25px;
+  }
 }
 
 .add-top {
@@ -96,3 +102,10 @@ html, body {
 .add-bottom {
   margin-bottom: 30px;
 }
+
+.title {
+  @media all and (max-width: 601px) {
+    font-size: 42px;
+  }
+}
+

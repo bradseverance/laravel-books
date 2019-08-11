@@ -3,7 +3,7 @@
 @section('content')
 <div class="flex-center position-ref full-height">
   <div class="content-left">
-    <img id="book-img" class="add-bottom" alt="Brad's Books" src="/public/imgs/book.png" />
+    <img id="book-img" class="add-bottom" alt="Brad's Books" src="{{ asset('imgs/book.png') }}" />
     <h2>Book ID: {{ $book['Id'] }}</h2>
     <p class="book-p"><strong>Part Number: </strong>{{ $book['PartNo'] }}</p>
     <p class="book-p"><strong>Title: </strong>{{ $book['Title'] }}</p>
