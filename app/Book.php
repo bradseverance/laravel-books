@@ -70,7 +70,7 @@ class Book {
     // get book keys    
     $bookIds = array_keys($books);
     // create new id
-    $maxId = max($bookIds) + 1;
+    $maxId = empty($bookIds) ? 1 : max($bookIds) + 1;
     // add id to book
     $aBook['Id'] = $maxId;
     // add book to books
