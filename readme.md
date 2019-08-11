@@ -1,4 +1,4 @@
-<p align="center"><img style="max-width: 200px"src="https://laravelbooks.limecat.ninja/public/imgs/book.png"></p>
+<p align="center"><img style="width: 200px"src="https://laravelbooks.limecat.ninja/public/imgs/book.png"></p>
 
 ## Brad's Bookstore
 
