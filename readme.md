@@ -1,5 +1,3 @@
-<p align="center"><img src="https://laravelbooks.limecat.ninja/public/imgs/book.png"></p>
-
 ## Brad's Bookstore
 
 Created a little demo application called <em>Brad's Books</em> to learn Laravel a php MVC framework, which I must admit, is pretty darn awesome.
