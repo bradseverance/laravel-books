@@ -3,7 +3,7 @@
 @section('content')
 <div class="flex-center position-ref full-height">
   <div class="content">
-    <div class="title m-b-md add-top">I'm Using Laravel</div>
+    <div class="title m-b-md">I'm Using Laravel</div>
     <p>The <a href="https://laravel.com/docs/5.8/blade" target="_blank">Blade templating engine</a> is really cool.</p>
     <h3>if's and variables</h3>
     
