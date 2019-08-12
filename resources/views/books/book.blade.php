@@ -11,7 +11,6 @@
     <p>
       <a
         href="{{ route('books.books') }}"
-        type="button"
         class="btn btn-primary btn-sm"
       >Return To List</a>
     </p>
